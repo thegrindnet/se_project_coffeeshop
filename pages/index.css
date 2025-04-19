@@ -233,4 +233,5 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+  padding-bottom: 0;
 }
