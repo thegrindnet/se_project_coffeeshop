@@ -217,7 +217,7 @@
   border: none;
 }
 
-.form_button_margin {
+.form__button_margin {
   margin-top: 32px;
 }
 .form__button:hover {
