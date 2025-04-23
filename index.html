@@ -12,7 +12,6 @@
       content="coffee shop, local coffee, espresso, latte, cappuccino, pastries, cafe, fresh brew, artisan coffee, cozy cafe, coffee near me"
     />
     <meta name="author" content="David Bonilla" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -181,10 +180,157 @@
             </fieldset>
           </form>
         </section>
-        <section id="menu" class="menu"></section>
-        <section id="about" class="about"></section>
+        <section id="menu" class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <ul class="card">
+              <li class="card__title">Filter</li>
+              <li class="card__list-item">
+                Regular (12 oz) &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $1
+              </li>
+              <li class="card__list-item">
+                Large (16 oz) &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $1.25
+              </li>
+              <li class="card__list-item">
+                XL (20 oz) &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $1.5
+              </li>
+              <li class="card__list-item">
+                Party-size (24 oz, decaf) &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $1.75
+              </li>
+              <li class="card__list-item">
+                Iced Coffee (16 oz) &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $1.25
+              </li>
+            </ul>
+            <ul class="card">
+              <li class="card__title">Espresso</li>
+              <li class="card__list-item">
+                Macchiato &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $2.25
+              </li>
+              <li class="card__list-item">
+                Cortado &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $2.5
+              </li>
+              <li class="card__list-item">
+                Mocha &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $3
+              </li>
+              <li class="card__list-item">
+                Sunrise in the Bay Area (decaf) &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $10
+              </li>
+            </ul>
+            <ul class="card">
+              <li class="card__title">Baked Goods</li>
+              <li class="card__list-item">
+                Almond Croissant &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $2
+              </li>
+              <li class="card__list-item">
+                Banana Bread &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $1.75
+              </li>
+              <li class="card__list-item">
+                Key Lime Pie &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $3
+              </li>
+              <li class="card__list-item">
+                Blue Velvet Cake &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $3.75
+              </li>
+              <li class="card__list-item">
+                Web Cookie &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $2
+              </li>
+              <li class="card__list-item">
+                Fresh Bug’uette &nbsp;
+                <span class="card__list-divider"></span>
+                &nbsp; $0.25
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+            <div class="about__circle"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
+          </div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="White Triple Espresso Logo"
+            class="footer__logo"
+          />
+          <div class="footer__social-media">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook icon"
+                  class="footer__social-icon"
+                />
+                <a href="https://www.facebook.com/" class="footer__social-link">
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram icon"
+                  class="footer__social-icon"
+                />
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer__social-link"
+                >
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 David Bonilla</p>
+      </footer>
     </div>
   </body>
 </html>
