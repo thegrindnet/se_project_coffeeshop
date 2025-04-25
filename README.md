@@ -13,4 +13,10 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+### Improvement 1
+
+When it comes to using the nav bar, when you click on one of the links the transition is pretty harsh. I'd like to implement a smooth transition so that when you click on the link it will glide across the appropriate section.
+
+### Improvement 2
+
+Making the form functional in the Reservations block would be a great way to improve this site.
