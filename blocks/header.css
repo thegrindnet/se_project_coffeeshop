@@ -8,13 +8,14 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  padding: 30px 80px 40px;
+  z-index: 1;
 }
 
 .header__wrapper {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  padding-left: 80px;
 }
 
 .header__title {
@@ -47,6 +48,7 @@
   right: 5px;
   height: 568px;
   width: 646px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -54,7 +56,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 80px 40px 80px;
 }
 
 .header__paragraph {

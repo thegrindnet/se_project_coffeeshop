@@ -1,12 +1,13 @@
 .nav {
   display: flex;
-  padding: 30px 80px 183px 30px;
+  padding-bottom: 183px;
   justify-content: space-between;
 }
 
 .nav__logo {
   height: 39px;
   width: 105px;
+  transform: translateX(-50px);
 }
 
 .nav__links {
